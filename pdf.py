@@ -147,7 +147,7 @@
 
 
 import streamlit as st
-import pdfplumber  # Replaced PyPDF2 with pdfplumber
+import pdfplumber 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
